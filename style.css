@@ -15,3 +15,11 @@ div {
 body {
   background-color: lightblue;
 }
+
+button {
+  height: 48px;
+  padding: 0 30px;
+  background-color: cadetblue;
+  width: 200px;
+  align-self: center;
+}

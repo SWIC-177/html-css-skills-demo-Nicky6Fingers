@@ -1,1 +1,17 @@
 @import url("node_modules/modern-normalize/modern-normalize.css");
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+div {
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}

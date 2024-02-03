@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
+    <header classes="flex" item-center justify-content>
       <img
         src="profile.jpg"
         width="108"
         height="108"
         alt="profile picture i use for online gaming, its a cat"
       />
-      <h1>Nicky6Fingers</h1>
-      <h2>Cat Socialist in disguise</h2>
+      <div class="flex flex-col">
+        <h1>Nicky6Fingers</h1>
+        <h2>Cat Socialist in disguise</h2>
+      </div>
     </header>
     <main>
       <div class="grid-lg">
@@ -30,28 +32,24 @@
           Gary and Mable and my 3 dogs;Andrew , Ivy and Maya
         </p>
         <h2>About Me</h2>
-        <img
-          src="/pictures/profile.jpg"
-          alt="profile picture i use for online gaming, its a cat"
-          width="200"
-          length="350"
-        />
         <hr />
         <h3>Where Have I Worked?</h3>
-        <dl>
-          <dt>
+        <ul class="flex flex.col">
+          <li>
             -<a href="https://www.lesmithjewelersandgifts.com/"
               >L.E Smith Jewelry</a
             >
-          </dt>
-          <dd>Sales</dd>
-          <dt>-St Peters Manor</dt>
-          <dd>Laundry</dd>
-          <dt>-Aramark</dt>
-          <dd>Elementary School Cook</dd>
-          <dt>-Troy Produce patch</dt>
-          <dd>Sales</dd>
-        </dl>
+          </li>
+          <p>Sales</p>
+          <li>-St Peters Manor</li>
+          <li>Laundry</li>
+          <br />
+          <li>-Aramark</li>
+          <li>Elementary School Cook</li>
+          <br />
+          <li>-Troy Produce patch</li>
+          <li>Sales</li>
+        </ul>
         <h3>Education</h3>
         <p>
           I went to Colinsville High School and graduated in 2012, while

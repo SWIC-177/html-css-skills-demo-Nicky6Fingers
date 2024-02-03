@@ -1,19 +1,36 @@
 @import url("node_modules/modern-normalize/modern-normalize.css");
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 .flex {
   display: flex;
+  gap: 8px;
 }
 
 .flex-col {
   flex-direction: column;
 }
 
-div {
-  text-align: center;
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 body {
   background-color: lightblue;
+  padding: 16px;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
 }
 
 button {
@@ -22,6 +39,21 @@ button {
   background-color: cadetblue;
   width: 200px;
   align-self: center;
+}
+
+header,
+main,
+footer {
+  padding: 16px;
+}
+
+img {
+  border-radius: 4px;
+}
+
+header {
+  border-bottom: black 1px solid;
+  padding-bottom: 16px;
 }
 
 @media screen and (width >= 1080px) {

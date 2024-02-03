@@ -25,7 +25,8 @@ button {
 }
 
 @media screen and (width >= 1080px) {
-  .flex-lg {
-    display: flex;
+  .grid-lg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -23,3 +23,9 @@ button {
   width: 200px;
   align-self: center;
 }
+
+@media screen and (width >= 1080px) {
+  .flex-lg {
+    display: flex;
+  }
+}

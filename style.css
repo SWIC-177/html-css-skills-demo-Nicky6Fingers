@@ -34,8 +34,11 @@ label{
   white-space: nowrap;
   border-width: 0;
 }
+
 form {
   max-width: 400px;
+  margin-top: 65px;
+  margin-bottom: 60px;
 }
 
 input {
@@ -61,6 +64,12 @@ button {
   cursor: pointer;
   border: white 1px solid;
   background-color: forestgreen;
+  transition: all;
+}
+
+button:hover{
+  border-radius: 32px;
+  background-color: darkblue;
 }
 
 

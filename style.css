@@ -23,14 +23,14 @@ h3 {
   justify-content: center;
 }
 
-label{
+label {
   position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
 }
@@ -38,7 +38,6 @@ label{
 form {
   max-width: 400px;
   margin: 24px auto;
-
 }
 
 input {
@@ -72,11 +71,10 @@ button {
   transition: all;
 }
 
-button:hover{
+button:hover {
   border-radius: 32px;
   background-color: darkblue;
 }
-
 
 header,
 main,
@@ -84,7 +82,11 @@ footer {
   padding: 16px;
 }
 
-img, input, textarea, button {
+/* stylelint-disable-next-line no-descending-specificity */
+img,
+input,
+textarea,
+button {
   border-radius: 4px;
 }
 
@@ -93,7 +95,7 @@ header {
   padding-bottom: 16px;
 }
 
-textarea{
+textarea {
   min-height: 160px;
   padding: 8px;
 }
